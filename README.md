@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./public/images/logo.svg" alt="Logo do Ignews" width="350">
+  <img src="./public/images/logo.svg" alt="Logo do Ignews" width="280">
 </h1>
 
 ## **<h2 align="center">Front end application  💻</h2>**
@@ -25,10 +25,12 @@
 <p align="center">
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="html5"  width="70" height="70"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="css3" width="70" height="70"/>
-<img src="https://styled-components.com/logo.png" alt="styled-components" width="70" height="70"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="Sass" width="70" height="70"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="70" height="70"/>
-<img src="https://jestjs.io/img/jest.png" alt="jest" width="70" height="70"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original-wordmark.svg" alt="next" width="70" height="70"/>
+<img src="https://seeklogo.com/images/P/prismic-logo-F6A173E6D0-seeklogo.com.png" alt="prismic" width="70" height="70"/>
+<img src="https://cdn.iconscout.com/icon/free/png-512/stripe-2-498440.png" alt="prismic" width="70" height="70"/>
 </p>
 
 <br>

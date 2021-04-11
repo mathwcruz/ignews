@@ -28,7 +28,7 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="Sass" width="70" height="70"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="70" height="70"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original-wordmark.svg" alt="next" width="70" height="70"/>
+<img src="https://www.drupal.org/files/project-images/nextjs-drupal.jpg" alt="next" width="70" height="70"/>
 <img src="https://seeklogo.com/images/P/prismic-logo-F6A173E6D0-seeklogo.com.png" alt="prismic" width="70" height="70"/>
 <img src="https://cdn.iconscout.com/icon/free/png-512/stripe-2-498440.png" alt="prismic" width="70" height="70"/>
 </p>

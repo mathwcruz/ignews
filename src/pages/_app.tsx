@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <NextAuthProvider session={pageProps.session}> {/* contexto contendo a informação se o usuário está logado */}
       <Header />
-      <Component {...pageProps} />
+      <Component {...pageProps} /> {/* renderiza o conteúdos das rotas conforme o usuário navega por elas */}
     </NextAuthProvider>
   );
 };

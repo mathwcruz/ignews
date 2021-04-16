@@ -19,25 +19,28 @@ interface PostProps {
 export default function Post({ post }: PostProps) {
   return (
     <>
-    <Head>
-      <title>{post.title} | Ignews</title>
-    </Head>
+      <Head>
+        <title>{post.title} | Ignews</title>
+      </Head>
 
       <main className={styles.container}>
         <article className={styles.post}>
           <h1>{post.title}</h1>
           <time>{post.updatedAt}</time>
-          <div 
+          <div
             className={styles.postContent}
-            dangerouslySetInnerHTML={{ __html: post.content }} 
+            dangerouslySetInnerHTML={{ __html: post.content }}
           /> {/* evitar usar o dangerouslySetInnerHTML, somente quando o backend é bem seguro */}
         </article>
       </main>
     </>
   );
-};
+}
 
-export const getServerSideProps: GetServerSideProps = async({ req, params }) => {
+export const getServerSideProps: GetServerSideProps = async ({
+  req,
+  params,
+}) => {
   const session = await getSession({ req });
   const { slug } = params;
 
@@ -46,8 +49,8 @@ export const getServerSideProps: GetServerSideProps = async({ req, params }) => 
       redirect: {
         destination: "/",
         permanent: false,
-      }
-    }
+      },
+    };
   };
 
   const prismic = getPrismicClient(req);
@@ -58,9 +61,9 @@ export const getServerSideProps: GetServerSideProps = async({ req, params }) => 
     title: RichText.asText(response.data.title), //título do post
     content: RichText.asHtml(response.data.content), //conteúdo do post
     updatedAt: new Date(response.last_publication_date).toLocaleDateString( //data de publicação do post
+      //formatando a data conforme o layout da aplicação
       "pt-BR",
       {
-        //formatando a data conforme o layout da aplicação
         day: "2-digit",
         month: "long",
         year: "numeric",
@@ -70,7 +73,7 @@ export const getServerSideProps: GetServerSideProps = async({ req, params }) => 
 
   return {
     props: {
-      post
-    }
+      post,
+    },
   };
 };

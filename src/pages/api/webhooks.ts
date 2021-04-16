@@ -18,7 +18,7 @@ async function buffer(readable: Readable) {
 };
 
 export const config = {
-  api:  {
+  api: {
     bodyParser: false
   }
 };
@@ -60,7 +60,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
             break;
           case "checkout.session.completed":
 
-          const checkoutSession = event.data.object as Stripe.Checkout.Session; 
+            const checkoutSession = event.data.object as Stripe.Checkout.Session;
 
             await saveSubscription(
               checkoutSession.subscription.toString(),
@@ -76,7 +76,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         return res.json({ error: "Webhook handler failed" });
       };
     };
-    
+
     res.json({ received: true });
   } else {
     res.setHeader("Allow", "POST");

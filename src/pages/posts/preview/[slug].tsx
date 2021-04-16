@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
-import { getSession, useSession } from "next-auth/client";
+import { useSession } from "next-auth/client";
 import { RichText } from "prismic-dom";
 
 import { getPrismicClient } from "../../../services/prismic";
@@ -25,7 +25,7 @@ export default function PostPreview({ post }: PostPreviewProps) {
 
   useEffect(() => { //se o usuário estiver logado e com um assinatura ativa, ele será redirecionado ao post completo
     if (session?.activeSubscription) {
-      router.push(`/posts/${post.slug}`);
+      router.push(`/posts/${post.slug}`); //rota do post
     };
   }, [session]);
 
@@ -43,7 +43,6 @@ export default function PostPreview({ post }: PostPreviewProps) {
             className={`${styles.postContent} ${styles.previewContent}`} //recebendo duas estilizações
             dangerouslySetInnerHTML={{ __html: post.content }} 
           /> {/* evitar usar o dangerouslySetInnerHTML, somente quando o backend é bem seguro */}
-          
           <div className={styles.continueReading}>
             Wanna continue reading?
              <Link href="/">

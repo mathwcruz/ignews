@@ -2,7 +2,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 export default class MyDocument extends Document {
-  //esse componente em específico, para carregar a aplicação apenas uma vez, deve ser criado em formato de Class Component, extendendo a class Document do NextJS
+  //esse componente em específico, serve para carregar a aplicação apenas uma vez, deve ser criado em formato de Class Component, extendendo a class Document do NextJS
   render() {
     return (
       <Html>

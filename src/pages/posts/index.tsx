@@ -54,9 +54,9 @@ export const getStaticProps: GetStaticProps = async () => {
     }
   );
 
-  //sempre que der, formatar o dado antes de retornar esses dados para o front end
+  console.log(JSON.stringify(response, null, 2)); // => dica para dar console.log mais formatado para leitura no terminal
 
-  console.log(JSON.stringify(response, null, 2)); // => dica para dar console.log mais formatado para leitura
+  //Dica: sempre que der, formatar o dado antes de retornar esses dados para o front end
 
   const posts = response.results.map((post) => {
     return {
@@ -64,11 +64,11 @@ export const getStaticProps: GetStaticProps = async () => {
       title: RichText.asText(post.data.title), //pegando o título
       excerpt:
         post.data.content.find((content) => content.type === "paragraph")
-          ?.text ?? "", //pegando o parágrafo do texto, caso seja encontrado
+          ?.text ?? "", //pegando o parágrafo do texto, caso seja encontrado, caso contrário, retorna um conteúdo vazio
       updatedAt: new Date(post.last_publication_date).toLocaleDateString(
+        //formatando a data conforme o layout da aplicação
         "pt-BR",
         {
-          //formatando a data conforme o layout da aplicação
           day: "2-digit",
           month: "long",
           year: "numeric",
@@ -79,7 +79,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      posts, //retornando o array contendo os posts
+      posts, //retornando ao componente, o array contendo os posts
     },
   };
 };

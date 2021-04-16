@@ -17,7 +17,7 @@ interface HomeProps {
 export default function Home({ product }: HomeProps) { //deve-se ter o "export default" do componente
   return (
     <>
-      <Head> {/* componente para especificar o título da página */}
+      <Head> {/* componente, vindo do Next, para especificar o título da página */}
         <title>Home | ig.news</title>
       </Head>
 

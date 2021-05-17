@@ -6,6 +6,8 @@
 
 ## <p><h2 align="center">Blog application developed in Ignite's third module delivered by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
 
+## <p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
+
 <p align="center">
   <a href="#computer-demonstration-of-the-application">Demonstration of the application</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#star-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

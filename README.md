@@ -42,6 +42,7 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="70" height="70"/>
 <img src="https://www.drupal.org/files/project-images/nextjs-drupal.jpg" alt="next" width="70" height="70"/>
+<img src="https://pics.freeicons.io/uploads/icons/png/5894313931548218185-512.png" alt="jest" width="70" height="70"/>
 </p>
 
 <br>

@@ -24,8 +24,13 @@
 <br>
 
 <h3 align="center"> 
-	Application status: Developed ✔️
+	Application status: Finalized ✔️
 </h3>
+<br>
+
+<h2 align="center"> 
+	Web application: https://ignews-rose.vercel.app/
+</h2>
 <br>
 
 ## :star: Features

@@ -24,8 +24,13 @@
 <br>
 
 <h3 align="center"> 
-	Application status: Developed ✔️
+	Application status: Finalized ✔️
 </h3>
+<br>
+
+<h2 align="center"> 
+	Web application: https://ignews-rose.vercel.app/
+</h2>
 <br>
 
 ## :star: Features
@@ -42,6 +47,7 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="70" height="70"/>
 <img src="https://www.drupal.org/files/project-images/nextjs-drupal.jpg" alt="next" width="70" height="70"/>
+<img src="https://pics.freeicons.io/uploads/icons/png/5894313931548218185-512.png" alt="jest" width="70" height="70"/>
 </p>
 
 <br>
@@ -58,7 +64,7 @@ To run the application on the web, follow the instructions from your terminal:
 - After that, run `yarn dev` to run the application, will open at the address `localhost:3000`
 <br>
 
-### Autor
+### Author
 ---
 
 <a href="https://app.rocketseat.com.br/me/matheus-da-cruz-frontend">

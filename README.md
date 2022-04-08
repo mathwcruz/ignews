@@ -4,7 +4,7 @@
 
 ## **<h2 align="center">Front end application  💻</h2>**
 
-## <p><h2 align="center">Blog application developed in Ignite's third module delivered by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
+## <p><h2 align="center">Blog application</h2> </p>
 
 ## <p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
 
@@ -26,11 +26,6 @@
 <h3 align="center"> 
 	Application status: Finalized ✔️
 </h3>
-<br>
-
-<h2 align="center"> 
-	Web application: https://ignews-rose.vercel.app/
-</h2>
 <br>
 
 ## :star: Features
@@ -78,4 +73,4 @@ Desenvolvido por Matheus da Cruz 😊
 [![Gmail Badge](https://img.shields.io/badge/-matheuswachcruz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:matheuswachcruz@gmail.com)](mailto:matheuswachcruz@gmail.com)
 <br>
 
-## **<p align="center">Thank you very much to the people of Rocketseat 🚀 for the excellent content and didactics, it is clear the impact of this company in my studies 🙂</p>**
+ ### <p> <h2 align="center">Another application made by Matheus da Cruz 👨‍💻 </h2> </p>
